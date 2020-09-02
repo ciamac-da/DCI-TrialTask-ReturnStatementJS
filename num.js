@@ -24,7 +24,7 @@ console.log("The second Solution -The lowest and the highest numbers are:",minMa
 
 function minMax3(){
     let nums = [0,1,12,33,20,-7]
-    let sorted = nums.sort((a,b) => a-b);
+    let sorted = nums.sort((a,b) => a-b);//I can get rid of a,b 
     console.log(sorted)
     return [nums[0],nums[nums.length-1]];
     
