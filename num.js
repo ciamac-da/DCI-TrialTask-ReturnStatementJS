@@ -10,10 +10,10 @@ console.log("The first Solution -The lowest and the highest numbers are:",minMax
 function minMax2(){
     let minMax =[]
     let num = [0,1,12,33,20,-7]
-    let min = Math.min(...num)
-    let max = Math.max(...num)
+    let min = Math.min(...num) // which is -7
+    let max = Math.max(...num) // which is 33
     minMax.push(min, max)
- 
+  console.log("minMax",minMax)
     return minMax
 }
 console.log("The second Solution -The lowest and the highest numbers are:",minMax2())
